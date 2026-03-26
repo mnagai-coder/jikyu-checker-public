@@ -1,0 +1,29 @@
+:root {
+  font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+  color: #e8ecf4;
+  background: #0b0f1a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  min-height: 100%;
+  background: #0b0f1a;
+}
+
+body {
+  min-height: 100vh;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
