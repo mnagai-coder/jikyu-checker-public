@@ -32,4 +32,10 @@ git remote add origin <GitHubのリポジトリURL>
 git push -u origin main
 ```
 
-GitHub Pages で静的公開する場合は、`dist/` を配信する設定を追加してください。
+## GitHub Pages
+
+このリポジトリには GitHub Pages 用の workflow を追加済みです。
+
+- 公開URL: `https://mnagai-coder.github.io/jikyu-checker-public/`
+- GitHub の `Settings -> Pages` で `Source` を `GitHub Actions` に設定
+- `main` に push すると自動で `dist/` が配信されます
